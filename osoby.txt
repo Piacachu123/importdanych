@@ -1,0 +1,4 @@
+Anna 23
+Bartek 31
+Celina 19
+Darek 31

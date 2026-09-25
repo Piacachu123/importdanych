@@ -1,0 +1,6 @@
+Ola 45 67 80
+Kuba 90 12 55
+Zosia 70 70 70
+Marek 33 88 91
+Ewa 100 40 60
+Piotr 55 55 60
