@@ -6,7 +6,7 @@ srednia = sum(oceny)/len(oceny)
 licznik = 0
 for ocena in oceny:
     if ocena > srednia:
-        licznik +=1
+        licznik +=1+
 print(f"średnia to {srednia}")
 print(f"Ocen wikeszych niz srednia jest {licznik}")
 
