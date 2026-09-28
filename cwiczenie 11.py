@@ -1,18 +1,24 @@
-tablica = []
+licznikzer = 0
+tablica= []
 with open("plansza.txt") as f:
     for line in f:
-        tablica.append(list(map(int,line.split())))
-    print(tablica)
+        wiersz = []
+        for  x in line.split():
+            wiersz.append(int(x))
+        tablica.append(wiersz)
 
+    for wiersz in tablica:
+        print(sum(wiersz))
+        licznikzer+=wiersz.count(0)
+print(tablica)
 
+for k in range(5):
+    sumakol = 0
+    for wiersz in tablica:
+        sumakol+=wiersz[k]
+    print(sumakol)
 
-
-
-
-
-
-
-
+print(licznikzer)
 
 
 
